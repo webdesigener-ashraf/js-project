@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover to See the Image</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Hover over an image below to display it in the box</h1>
+
+  <!-- Main image display area -->
+  <div id="image">
+    Hover over an image below to display here.
+  </div>
+
+  <!-- Thumbnails -->
+  <img src="download.jpg" alt="Nature image" class="preview" onmouseover="upDate(this)" onmouseout="undo()">
+  <img src="images-1.jpg" alt="Camera image" class="preview" onmouseover="upDate(this)" onmouseout="undo()">
+  <img src="images-2.jpg" alt="Garden image" class="preview" onmouseover="upDate(this)" onmouseout="undo()">
+  <img src="images-3.jpg" alt="Bird image" class="preview" onmouseover="upDate(this)" onmouseout="undo()">
+
+  <script src="script.js"></script>
+</body>
+</html>
